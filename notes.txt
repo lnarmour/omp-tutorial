@@ -1,0 +1,19 @@
+9
+11
+13
+16
+19-22 parallel regions
+23-27 parallel pi
+28 answer
+30-31-32 false sharing & solution (wuick)
+
+40-42
+synch and critical sections,
+- use critical section to reduce false sharing
+- BUT don't put critical sections inside tight loops - doing so serializes things
+
+
+44-45
+47-54 - parallel for
+
+
