@@ -59,7 +59,7 @@ test: $(EXES)
 	$(PRE)xthi_nested_omp$(EXE) 
 
 clean:
-	$(RM) $(EXES) *.$(OBJ)
+	$(RM) -rf $(EXES) *.$(OBJ)
 
 .SUFFIXES:
 .SUFFIXES: .c .cpp .$(OBJ)
