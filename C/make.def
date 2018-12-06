@@ -1,8 +1,8 @@
 # for intel compiler on Cori
 # copy to make.def
-CC         = cc
+CC         = gcc
 CPP         = $(CC)
-OPTFLAGS   = -qopenmp
+OPTFLAGS   = -fopenmp
 
 CLINKER     = $(CC)
 LIBS        = -lm
